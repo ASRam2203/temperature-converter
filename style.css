@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(https://images.pexels.com/photos/1563356/pexels-photo-1563356.jpeg?cs=srgb&dl=pexels-craig-adderley-1563356.jpg&fm=jpg);
+    background-size: cover; 
+}
+
+h1 {
+    color: #ffffff;
+}
+
+#converter {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border:  solid rgba(59, 58, 58, 0.7);
+    border-radius: 8px;
+    flex-basis: 31%;
+    background: linear-gradient(rgba(59, 58, 58, 0.7),rgba(112, 112, 112, 0.7)) ;
+    
+}
+
+
+input[type="number"] {
+    width: 80%;
+    padding: 10px ;
+    margin: 5px 0;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    
+    border: 1px solid #f7f5f5;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: transparent;   
+}
+
+button:hover{
+    border: 1px solid #f4857d;
+    background: #f85448;
+    transition: 1s;
+}
+
+#result {
+    margin-top: 20px;
+    font-weight: bold;
+    color: #fff;
+}
